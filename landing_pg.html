@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="landing_pg.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header" style="position: fixed; top: 0; z-index: 3;">
+            <div id="header-img"><img src="logo.png" alt="Logo"></div>
+            <nav id="nav-bar">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#bouts">Legendary Bouts</a>
+                <a class="nav-link" href="#legend">Legends</a>
+            </nav>
+        </header>
+        <div class="emp"></div>
+        
+
+        <div id="video" style="position: relative; top: 90px;">
+            <iframe src="ok.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="emp"></div>
+        <div class="misc" style="position: relative; top: 70px;">
+            <div class="intro">
+                <h1>Boxing</h1>
+                <p><strong>Boxing</strong> is a combat sport in which two people, usually wearing protective gloves and other 
+                    protective equipment such as hand wraps and mouthguards, throw punches at each other for a predetermined 
+                    amount of time in a boxing ring.</p>
+
+                <p>  Amateur boxing is both an Olympic and Commonwealth Games sport and is a standard fixture in most 
+                    international games—it also has its own World Championships. Boxing is overseen by a referee over a series 
+                    of one-to-three-minute intervals called rounds.</p>
+                    
+                    <p>A winner can be resolved before the completion of the rounds when a referee deems an opponent incapable 
+                        of continuing, disqualification of an opponent, or resignation of an opponent. When the fight reaches the 
+                        end of its final round with both opponents still standing, the judges' scorecards determine the victor. 
+                        In the event that both fighters gain equal scores from the judges, professional bouts are considered a draw. 
+                        In Olympic boxing, because a winner must be declared, judges award the contest to one fighter on technical 
+                        criteria.<sup>1</sup></sub></p>
+            </div>
+        </div>
+        <div class="emp"></div>
+        <div id="about" class="about" style="position: relative; top: 70px;">
+            <h3>boxing as a sport</h3>
+            <p> The earliest evidence of fist-fighting sporting contests date back to the ancient Near East in the 3rd and 2nd 
+                millennia BC.[2] The earliest evidence of boxing rules date back to Ancient Greece, where boxing was established 
+                as an Olympic game in 688 BC.[2] Boxing evolved from 16th- and 18th-century prizefights, largely in Great Britain, 
+                to the forerunner of modern boxing in the mid-19th century with the 1867 introduction of the Marquess of Queensberry 
+                Rules.
+            </p>
+            <p>If you wish to know more, kindly fill the form below....</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" max="15" placeholder="Ben"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" max="15" placeholder="Akpa"><br>
+                <label for="email">Email Id:</label><br>
+                <input type="email" id="email" name="email" max="30" placeholder="email" required><br>
+                <input type="submit" value="Submit" class="button">
+                <input type="reset" class="button">
+            </form>
+            <div class="emp"></div>
+            <p>Thank you, we promised not to share your info</p>
+            
+            
+        </div>
+        <div class="emp"></div>
+        <div id="bouts" class="bouts">
+            <h3>Great Bouts</h3>
+            <p>There have been many <strong>legendary bouts </strong> recorded in boxing. From blistering slugfests to 
+                unforgettable triumphs of will, the matches on this list encompass all the qualities that make the ring 
+                game great.</p>
+                <ul>
+                    <li>"Sugar” Ray Leonard vs. Thomas Hearns — Sept. 16, 1981</li>
+                    <li>Diego Corrales vs. Jose Luis Castillo — May 7, 2005</li>
+                    <li>George Foreman vs. Ron Lyle — January 24, 1976</li>
+                    <li>Erik Morales vs. Marco Antonio Barrera — February 19, 2005</li>
+                    <li>Julio Cesar Chavez vs. Meldrick Taylor — March 17, 1990</li>
+                    <li>Aaron Pryor vs. Alexis Arguello — November 12, 1982</li>
+                    <li> Muhammad Ali vs. George Foreman — October 30, 1974</li>
+                    <li>Micky Ward vs. Arturo Gatti — May 18, 2002</li>
+                    <li>Marvin Hagler vs. Thomas Hearns — April 15, 1985</li>
+                    <li>Muhammad Ali vs. Joe Frazier — March 8, 1971</li>
+                </ul>
+        </div>
+        <div class="emp"></div>
+        <div id="legend" class="legend">
+            <h3>Legends</h3>
+            <p>Boxing as a sport has been blessed with so many great since its existence as a commercial sport.
+            Each of the boxers listed below accomplished greatness and will be remembered for years to come.  </p>
+            <div>
+            <img src="Ali.jpg" alt="Muhammad Ali">
+            </div>
+            <ul style="margin: 15px;">
+                <li>Muhammad Ali</li>
+                <li>Floyd Mayweather Jr.</li>
+                <li>Mike Tyson</li>
+                <li>“Sugar” Ray Leonard</li>
+                <li>Joe Louis</li>
+                <li>George Foreman</li>
+                <li>Evander Holyfield</li>
+                <li>Rocky Marciano</li>
+            </ul>
+        </div>
+             
+    </div>
+    
+    <footer id="footer">
+        <div>
+        <p>This is just a test practice on @freecodecamp <br>
+            Acknowledgement: (1) Wikipedia write-up on Boxing
+        </p></div>
+    </footer>
+    
+</body>
+</html>
